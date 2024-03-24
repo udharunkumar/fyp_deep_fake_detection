@@ -1,0 +1,18 @@
+Papers referred
+
+[1] D. G¨ uera and E. J. Delp Deepfake Video Detection Using Recurrent Neural Networks,
+15th IEEE International Conference on Advanced Video and Signal Based Surveillance
+(AVSS), Auckland, New Zealand, 2018.
+[2] Daichi Zhang1,2, Chenyu Li1,2, Fanzhao Lin1,2, Dan Zeng3and Shiming Ge Detecting
+Deepfake Videos with Temporal Dropout 3DCNN, Proceedings of the Thirtieth
+International Joint Conference on Artificial Intelligence (IJCAI-21)
+[3] Yuezun Li, Siwei Lyu Exposing DeepFake Videos By Detecting Face Warping Artifacts
+University at Albany, State University of New York, USA
+[4] Yuezun Li, Ming-Ching Chang and Siwei Lyu “Exposing AI Created Fake Videos by
+Detecting Eye Blinking, arXiv:1806.02877v2.
+[5] ansal, Nency , Aljrees, Turki , Yadav, Dhirendra , Verma, Gyanendra Real-Time
+Advanced Computational Intelligence for Deep Fake Video DetectionApplied Sciences.
+13. 3095. 10.3390/app13053095
+[6] Andreas Rossler, Davide Cozzolino, Luisa Verdoliva, Christian Riess, Justus
+Thies,Matthias Nießner, “FaceForensics++: Learning to Detect Manipulated Facial
+Images” in arXiv:1901.08971
