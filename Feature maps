@@ -1,0 +1,21 @@
+Feature extraction and visualization
+
+Extracting the Feature Map: 
+The feature maps (fmap) obtained from the neural network represent the activations of neurons in the last layer of the network.
+Each feature map corresponds to a different filter applied to the input image. In this step, the feature map corresponding to the last layer (fmap[-1]) is selected.
+
+Reshaping the Feature Map: The selected feature map is reshaped into a 2D array. 
+This reshaping process collapses the spatial dimensions (height and width) of the feature map into a single dimension while preserving the channel dimension.
+The resulting shape is (nc, h*w), where nc is the number of channels (or filters) in the feature map, and h and w are the height and width, respectively.
+
+Extracting the Weights of the Final Linear Layer: The weights of the final linear layer (linear1) of the neural network are obtained. 
+These weights represent the importance of each neuron in the last layer in making the final prediction.
+
+Calculating the Weighted Sum: The dot product is calculated between the reshaped feature map and the weights of the final linear layer. 
+This operation effectively computes a weighted sum of the activations of neurons in the last layer, where the weights are determined by the learned parameters of the final linear layer. 
+Each element of the resulting array represents the contribution of a specific neuron to the final prediction.
+
+Result: The resulting array represents the importance of different regions of the input image as determined by the neural network. 
+Higher values indicate regions that are more influential in the prediction process, while lower values indicate less influential regions.
+This array is further processed and visualized to highlight the regions of the input image that contributed most to the model's prediction.
+
